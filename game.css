@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+}
+
+/* Default styles */
+/* Your existing CSS styles go here */
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    /* Adjust font sizes, margins, paddings, etc. for smaller screens */
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 14px;
+        height: 150px; /* Adjust button size for smaller screens */
+        width: 150px;
+        margin: 1.5rem; /* Adjust margin for smaller screens */
+    }
+
+    /* Adjust button container layout for smaller screens */
+    .btn-container {
+        flex-direction: column;
+    }
+
+    .line-one,
+    .line-two {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Further adjustments for even smaller screens */
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 12px;
+        height: 100px; /* Adjust button size for even smaller screens */
+        width: 100px;
+        margin: 1rem; /* Adjust margin for even smaller screens */
+    }
+}
+
+/* Your existing styles */
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.red {
+    background-color: #d95980;
+}
+
+.purple {
+    background-color: #819ff9;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userFlash {
+    background-color: green;
+}
